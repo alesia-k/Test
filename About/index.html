@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Planner</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="/test/About/css/main.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__inner">
-                <a href="/home/index.html">
-                    <img class="header__img" src="/Schedule/img/notebook.png" alt="logo">
+            <div class="header__inner" class="vcard">
+                <a href="/home/index.html" class="url">
+                    <img class="header__img" class="photo" src="/test/Schedule/img/notebook.png" alt="logo">
                 </a>
-                <h1>Make your daily planner in the best possible way!</h1>
+                <h1 class="fn">Make your daily planner in the best possible way!</h1>
             </div>
         </div>
     </header>
@@ -27,27 +27,29 @@
                     <nav class="aside__nav">
                         <ul>
                             <li>
-                                <a href="/home/index.html" target="_blank">home</a>
+                                <a href="/test/home/index.html" target="_blank">home</a>
                             </li>
                             <li>
-                                <a href="/Schedule/index.html" target="_blank">schedule</a>
+                                <a href="/test/Schedule/index.html" target="_blank">schedule</a>
                             </li>
-                            <li><a class="active" href="/About/index.html" target="_blank">about</a></li>
+                            <li><a class="active" href="/test/About/index.html" target="_blank">about</a></li>
                         </ul>
                     </nav>
                 </aside>
-                <main class="about">
+                <main class="about" class="hreview">
 
                     <p class="about__title">Leave your comment below!</p>
-                    <form class="submit" action="#" method="post">
-                        <input class="submit__item" tabindex="1" type="text" name="name" placeholder="Name" required>
-                        <input class="submit__item" tabindex="2" type="text" name="name" placeholder="Email" required>
-                        <input class="submit__item" tabindex="3" type="text" name="name" placeholder="Subject" required>
-                        <textarea class="submit__item" tabindex="4" placeholder="Your Massage" name="text" required
+                    <form class="submit" action="#" method="post" class="summary">
+                        <input class="submit__item" tabindex="1" type="text" name="name" placeholder="Name" class="reviewer" aria-required="true">
+                        <input class="submit__item" tabindex="2" type="text" name="name" placeholder="Email" aria-required="true">
+                        <input class="submit__item" tabindex="3" type="text" name="name" placeholder="Subject" class="item" class="fn" aria-required="true">
+                        <span class="type">website
+                        <textarea class="submit__item" tabindex="4" placeholder="Your Massage" name="text" class="description" aria-required="true"
                             style="margin: 0px 0px 19px 0px;"></textarea>
+                        </span>
                         <div class="submit__btn btn">submit</div>
                     </form>
-                    <p class="about__from">Made by: <span id="author"></span></p>
+                    <p class="about__from" class="vcard">Made by: <span id="author" class="fn"></span></p>
                 </main>
             </div>
         </div>
@@ -85,8 +87,7 @@
                 /*print current date and time on site in block with id "current_date_time_block"*/
                 document.getElementById('current_date_time_block').innerHTML = date_time();
             </script>
-            <div class="vcard"></div>
-            <p>Made by: <span id="who" class="fn"></span></p>
+            <p class="vcard">Made by: <span id="who" class="fn"></span></p>
             <p>Version: <span id="version"></span></p>
         </div>
     </footer>

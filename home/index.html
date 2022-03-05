@@ -14,11 +14,11 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__inner">
-                <a href="/home/index.html">
-                    <img class="header__img" src="/Schedule/img/notebook.png" alt="logo">
+            <div class="header__inner" class="vcard">
+                <a href="/test/home/index.html" class="url">
+                    <img class="header__img" class="photo" src="/test/Schedule/img/notebook.png" alt="logo">
                 </a>
-                <h1>Make your daily planner in the best possible way!</h1>
+                <h1 class="fn">Make your daily planner in the best possible way!</h1>
             </div>
         </div>
     </header>
@@ -29,13 +29,13 @@
                     <nav class="aside__nav">
                         <ul>
                             <li>
-                                <a class="active" href="/home/index.html" target="_blank">home</a>
+                                <a class="active" href="/test/home/index.html" target="_blank">home</a>
                             </li>
                             <li>
-                                <a href="/Schedule/index.html" target="_blank">schedule</a>
+                                <a href="/test/Schedule/index.html" target="_blank">schedule</a>
                             </li>
                             <li>
-                                <a href="/About/index.html">about</a>
+                                <a href="/test/About/index.html">about</a>
                             </li>
                         </ul>
                     </nav>
@@ -92,7 +92,7 @@
                 /*print current date and time on site in block with id "current_date_time_block"*/
                 document.getElementById('current_date_time_block').innerHTML = date_time();
             </script>
-            <p>Made by: <span id="author"></span></p>
+            <p class="vcard">Made by: <span id="author" class="fn"></span></p>
             <p>Version: <span id="version"></span></p>
         </div>
     </footer>

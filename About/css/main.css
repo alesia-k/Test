@@ -124,6 +124,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding: 14px 20px;
 }
 
+span.type {
+    display: none;
+}
+
 .submit textarea {
     resize: none;
     height: 200px;
