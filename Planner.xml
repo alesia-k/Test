@@ -51,3 +51,56 @@
     <sunday5>Develop the project</sunday5>
   </February>
 </Planner>
+
+
+<rdf:Description rdf:about="/test/Schedule/index.html">
+  <planner:Week>First week</planner:Week>
+  <planner:monday>Choose a template for the project</planner:monday>
+  <planner:tuesday>Take English class</planner:tuesday>
+  <planner:wednesday>Read about callback function</planner:wednesday>
+  <planner:thursday>Rest</planner:thursday>
+  <planner:friday>Do homework for English class</planner:friday>
+  <planner:saturday>Develop the project</planner:saturday>
+  <planner:sunday>Develop the project</planner:sunday>
+
+  <planner:Week>Second week</planner:Week>
+    <planner:monday2>Finish the first page</planner:monday2>
+    <planner:tuesday2>Take English class</planner:tuesday2>
+    <planner:wednesday2>Read about function declaration &amp; function expression</planner:wednesday2>
+    <planner:thursday2>Rest</planner:thursday2>
+    <planner:friday2>Do homework for English class</planner:friday2>
+    <planner:saturday2>Develop the project</planner:saturday2>
+    <planner:sunday2>Develop the project</planner:sunday2>
+
+    <planner:Week>Third week</planner:Week>
+    <planner:monday3>Finish the second page</planner:monday3>
+    <planner:tuesday3>Take English class</planner:tuesday3>
+    <planner:wednesday3>Implement the burger menu in the project</planner:wednesday3>
+    <planner:thursday3>Rest</planner:thursday3>
+    <planner:friday3>Do homework for English class</planner:friday3>
+    <planner:saturday3>Develop the project</planner:saturday3>
+    <planner:sunday3>Develop the project</planner:sunday3>
+
+    <planner:Week>Fourth week</planner:Week>
+    <planner:monday4>Finish the third page</planner:monday4>
+    <planner:tuesday4>Take English class</planner:tuesday4>
+    <planner:wednesday4>Develop the project</planner:wednesday4>
+    <planner:thursday4>Rest</planner:thursday4>
+    <planner:friday4>Do homework for English class</planner:friday4>
+    <planner:saturday4>Develop the project</planner:saturday4>
+    <planner:sunday4>Develop the project</planner:sunday4>
+
+    <planner:Week>Fifth week</planner:Week>
+    <planner:monday5>Check and implement some details in the project</planner:monday5>
+    <planner:tuesday5>Take English class</planner:tuesday5>
+    <planner:wednesday5>Develop the project</planner:wednesday5>
+    <planner:thursday5>Rest</planner:thursday5>
+    <planner:friday5>Do homework for English class</planner:friday5>
+    <planner:saturday5>Develop the project</planner:saturday5>
+    <planner:sunday5>Develop the project</planner:sunday5>
+</rdf:Description>
+
+
+
+
+

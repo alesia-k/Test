@@ -3,3 +3,10 @@
   <author>Kovaleva Alesya</author>
   <version>1.0.</version>
 </about>
+
+
+<rdf:Description rdf:about="/test/About/index.html">
+  <about:author>Kovaleva Alesya</about:author>
+  <about:version>1.0.</about:version>
+</rdf:Description>
+
